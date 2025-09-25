@@ -2,21 +2,21 @@ package arrays;
 //three dimension array
 public class MultiArrayExercise2 {
     public static void main(String[] args) {
-        String [][][] names = {
-                //array 1
-                {
+        String [][][]names = {
+                        //array 1
+                        {//array 2
 
-                        {"Aung Aung","Mg Mg","Kyaw Kyaw"},
-                        {"Moe Moe","Su Su","Lin LIn"},
-                },
-                {
-                        {"Zaw Zaw","Khin Khin"},
-                        {"Soe Soe","Ko Ko"}
-                },
-                {
-                        {"Pa Pa","Phoo Phoo"},
-                        {"Zin Zin","Aye Aye"}
-                },
+                                {"Aung Aung", "Mg Mg", "Kyaw Kyaw"},//array 3
+                                {"Moe Moe", "Su Su", "Lin LIn"},
+                        },
+                        {
+                                {"Zaw Zaw", "Khin Khin"},
+                                {"Soe Soe", "Ko Ko"}
+                        },
+                        {
+                                {"Pa Pa", "Phoo Phoo"},
+                                {"Zin Zin", "Aye Aye"}
+                        },
 
         };
         System.out.println(names[0][0][0]);

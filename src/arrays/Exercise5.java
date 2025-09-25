@@ -14,7 +14,7 @@ public class Exercise5 {
 
      */
 //direct copy -> Arrays.copyOfRange (original arrays, start of index, end of index + 1)
-        String[] copyCars = Arrays.copyOfRange(cars, 0,3);
+        String[] copyCars = Arrays.copyOfRange(cars, 0,6);
         System.out.println(Arrays.toString(copyCars));
 
     }
